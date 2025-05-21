@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1604242692760-2f7b0c26856d') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    width: 360px;
+    color: #fff;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(255,255,255,0.2);
+    color: #fff;
+    transition: 0.3s;
+}
+
+input::placeholder {
+    color: #ddd;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background: #444;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #222;
+}
+
+a {
+    color: yellow;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+}
