@@ -83,3 +83,8 @@ services:
       - key: FLASK_ENV
         value: production
 ```
+
+## Deployment
+
+This project is deployed at: [https://genxia.xyz](https://genxia.xyz)
+
